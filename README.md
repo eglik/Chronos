@@ -1,6 +1,7 @@
-#About Chronos
-> Chronos is windows program about time schedule alarm.
+# About Chronos
+> Chronos is windows program about time schedule alarm.<br>
+> It will be maybe a little help when you focus another works in computer.
 
-##Update Log
+## Update Log
 * 1
     * Add WPF Base
