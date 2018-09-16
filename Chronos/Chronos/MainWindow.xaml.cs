@@ -26,5 +26,10 @@ namespace Chronos
             InitializeComponent();
             ScreenManager.Initialize(this);
         }
+
+        private void Window_SizeChanged(object sender, SizeChangedEventArgs e)
+        {
+            ScreenManager.SaveScreenSetting(this);
+        }
     }
 }
