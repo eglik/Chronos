@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Chronos;
 
 namespace Chronos
 {
@@ -23,6 +24,7 @@ namespace Chronos
         public MainWindow()
         {
             InitializeComponent();
+            ScreenManager.Initialize(this);
         }
     }
 }
