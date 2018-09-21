@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Chronos
 {
-    class AlarmManager
+    [ClassInterface(ClassInterfaceType.None)]
+    [ComSourceInterfaces(typeof(INotificationActivationCallback))]
+    [Guid("replaced-with-your-guid-C173E6ADF0C3"), ComVisible(true)]
+    public static class AlarmManager
     {
+
     }
 }
