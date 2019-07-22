@@ -51,6 +51,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="OdinTheme">
+      <HintPath>..\..\..\OdinWindowTheme\OdinTheme\OdinTheme\bin\Release\OdinTheme.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -81,9 +84,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="Alarm\AlarmManager.cs" />
-    <Compile Include="Alarm\DesktopNotificationManagerCompat.cs" />
-    <Compile Include="Alarm\NotificationActivator.cs" />
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>

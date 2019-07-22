@@ -13,13 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Chronos;
+using OdinTheme;
 
 namespace Chronos
 {
     /// <summary>
     /// MainWindow.xaml에 대한 상호 작용 논리
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : OdinWindow
     {
         public MainWindow()
         {
